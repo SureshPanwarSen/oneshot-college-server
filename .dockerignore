@@ -1,0 +1,17 @@
+node_modules
+log
+logs/*
+.idea/*
+pids
+.idea
+temp/*
+# exclude everything
+downloads/*
+# exception to the rule
+!downloads/.gitkeep 
+package-lock.json
+.DS_Store
+.dev.env
+.env
+.vscode
+.gcp-storage-key.json
